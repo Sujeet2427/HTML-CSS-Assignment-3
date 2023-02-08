@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+    height: 84px;
+    background-color: #000;
+}
+
+ img{
+    width: 92px;
+    height: 32px;
+}
+
+nav ul{
+    display: flex;
+    padding-left: 150px;
+    flex-grow: 1;
+    gap: 80px;
+}
+
+nav ul li{
+    list-style-type: none;
+    padding: 10px 10px;
+    gap: 36px;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-1{
+    border: none;
+    padding: 10px 30px;
+    border-radius: 12px;
+    color: #fff;
+    background-color: rgb(130, 9, 243);
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    cursor: pointer;
+}
+
+main{
+    align-items: center;
+    text-align: center;
+    padding: 12px 32px;
+    justify-content: space-between;
+    background-image: url(./bcg.png);
+    background-image: cover;
+    background-size: cover;
+    height: 92vh;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 54px;
+    margin-top: 150px;
+    color: #fff;
+}
+
+p{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.btn-2{
+    border: none;
+    padding: 10px 30px;
+    border-radius: 12px;
+    color: #fff;
+    background-color: darkmagenta;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 40px;
+}
